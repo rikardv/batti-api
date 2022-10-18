@@ -3,7 +3,7 @@ const cheerio = require("cheerio");
 const pretty = require("pretty");
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 3004
 var mysql = require('mysql');
 
 var pool = mysql.createPool({
